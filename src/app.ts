@@ -11,6 +11,6 @@ app.get("/", (req, res) => {
 console.log("hello");
 console.log("hi");
 
-app.use(userRouter);
+app.use("/api", userRouter);
 
 export default app;
